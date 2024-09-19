@@ -16,7 +16,7 @@ namespace TestProjetSaisie
             sec = sec % 3600;
             int min = sec / 60;
             sec = sec % 60;
-            Console.WriteLine(heure + "h" + min + "m" + sec + "s" + "Bravo tu as réussi");
+            Console.WriteLine(heure + "h" + min + "m" + sec + "s");
             Console.ReadKey();
         }
     }
